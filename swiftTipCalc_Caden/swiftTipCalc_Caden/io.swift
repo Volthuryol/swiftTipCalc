@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Io {
+class TipCalculator {
     func getInput() -> String {
         let keyboard = FileHandle.standardInput
         let inputData = keyboard.availableData
@@ -21,7 +21,10 @@ class Io {
         }
     }
     
+    
     func writeMessage(_ message: String) {
         print("\(message)")
+
     }
+
 }
